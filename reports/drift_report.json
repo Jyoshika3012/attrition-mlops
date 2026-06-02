@@ -1,0 +1,122 @@
+{
+  "Age": {
+    "p_value": 0.2727,
+    "drift_detected": false
+  },
+  "BusinessTravel": {
+    "p_value": 0.9831,
+    "drift_detected": false
+  },
+  "DailyRate": {
+    "p_value": 0.8562,
+    "drift_detected": false
+  },
+  "Department": {
+    "p_value": 1.0,
+    "drift_detected": false
+  },
+  "DistanceFromHome": {
+    "p_value": 0.5626,
+    "drift_detected": false
+  },
+  "Education": {
+    "p_value": 0.5626,
+    "drift_detected": false
+  },
+  "EducationField": {
+    "p_value": 0.9912,
+    "drift_detected": false
+  },
+  "EnvironmentSatisfaction": {
+    "p_value": 0.2727,
+    "drift_detected": false
+  },
+  "Gender": {
+    "p_value": 1.0,
+    "drift_detected": false
+  },
+  "HourlyRate": {
+    "p_value": 0.0111,
+    "drift_detected": true
+  },
+  "JobInvolvement": {
+    "p_value": 0.9991,
+    "drift_detected": false
+  },
+  "JobLevel": {
+    "p_value": 0.0072,
+    "drift_detected": true
+  },
+  "JobRole": {
+    "p_value": 0.3498,
+    "drift_detected": false
+  },
+  "JobSatisfaction": {
+    "p_value": 0.9318,
+    "drift_detected": false
+  },
+  "MaritalStatus": {
+    "p_value": 0.1663,
+    "drift_detected": false
+  },
+  "MonthlyIncome": {
+    "p_value": 0.0001,
+    "drift_detected": true
+  },
+  "MonthlyRate": {
+    "p_value": 0.9876,
+    "drift_detected": false
+  },
+  "NumCompaniesWorked": {
+    "p_value": 0.0689,
+    "drift_detected": false
+  },
+  "OverTime": {
+    "p_value": 0.996,
+    "drift_detected": false
+  },
+  "PercentSalaryHike": {
+    "p_value": 0.9049,
+    "drift_detected": false
+  },
+  "PerformanceRating": {
+    "p_value": 1.0,
+    "drift_detected": false
+  },
+  "RelationshipSatisfaction": {
+    "p_value": 0.6939,
+    "drift_detected": false
+  },
+  "StockOptionLevel": {
+    "p_value": 0.5842,
+    "drift_detected": false
+  },
+  "TotalWorkingYears": {
+    "p_value": 0.0291,
+    "drift_detected": true
+  },
+  "TrainingTimesLastYear": {
+    "p_value": 1.0,
+    "drift_detected": false
+  },
+  "WorkLifeBalance": {
+    "p_value": 0.8381,
+    "drift_detected": false
+  },
+  "YearsAtCompany": {
+    "p_value": 0.1974,
+    "drift_detected": false
+  },
+  "YearsInCurrentRole": {
+    "p_value": 0.7792,
+    "drift_detected": false
+  },
+  "YearsSinceLastPromotion": {
+    "p_value": 0.5203,
+    "drift_detected": false
+  },
+  "YearsWithCurrManager": {
+    "p_value": 0.0487,
+    "drift_detected": true
+  }
+}
