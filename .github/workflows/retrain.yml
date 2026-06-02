@@ -30,7 +30,6 @@ jobs:
       run: |
         pip install kaggle
         kaggle datasets download -d pavansubhasht/ibm-hr-analytics-attrition-dataset
-        unzip ibm-hr-analytics-attrition-dataset.zip -d data/raw/
-
+        unzip -o ibm-hr-analytics-attrition-dataset.zip -d data/raw/
     - name: Run training
       run: python src/train.py
