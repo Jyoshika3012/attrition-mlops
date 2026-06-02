@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/DELL/Downloads/Me/attrition-mlops/mlruns/0/models/m-0ed99e2f78534111a69c83a446baf00f/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.14.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.13.0
+model_id: m-0ed99e2f78534111a69c83a446baf00f
+model_size_bytes: 726424
+model_uuid: m-0ed99e2f78534111a69c83a446baf00f
+prompts: null
+run_id: 4a6d42103f5946798fecac02a9dec124
+utc_time_created: '2026-06-02 11:16:56.642394'
