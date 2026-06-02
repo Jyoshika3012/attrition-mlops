@@ -20,13 +20,17 @@ jobs:
     - name: Install dependencies
       run: pip install -r requirements.txt
 
-    - name: Create data directory
+    - name: Create directories
       run: mkdir -p data/raw models
 
     - name: Download dataset
+      env:
+        KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
+        KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
       run: |
         pip install kaggle
-        echo "Skipping dataset download - using cached version"
-        
+        kaggle datasets download -d pavansubhasht/ibm-hr-analytics-attrition-dataset
+        unzip ibm-hr-analytics-attrition-dataset.zip -d data/raw/
+
     - name: Run training
       run: python src/train.py

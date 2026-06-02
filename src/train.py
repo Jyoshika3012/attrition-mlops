@@ -14,6 +14,8 @@ def train(n_estimators=100, max_depth=6):
         "data/raw/WA_Fn-UseC_-HR-Employee-Attrition.csv"
     )
 
+    mlflow.set_experiment("attrition-experiment")
+
     with mlflow.start_run():
 
         model = RandomForestClassifier(
